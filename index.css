@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    width: 22%;
+    height: fit-content;
+    padding: 15px;
+    padding-bottom: 30px;
+    line-height: 25px;
+    background-color:hsl(216, 50%, 16%) ;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%; left: 50%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+  
+h1 {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.eth-price {
+    font-family: 'Outfit', sans-serif; font-weight: 400; color: hsl(178, 100%, 50%); float: left; line-height: 18px;
+}
+
+.avatar{
+    font-family: 'Outfit', sans-serif; font-weight: 400; color:hsl(215, 51%, 70%); float: left; line-height: 25px;
+}
+
+hr {
+    font-weight: 100;
+    clear: both;
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+    height: 1px; 
+}
+
+
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 70%;
+        /* margin: 4px; */
+    }
+}
